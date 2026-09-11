@@ -14,7 +14,7 @@ function App() {
       {page === "home" && (
         <div className="landing-page">
           <div className="landing-content">
-            <h1>Paradise Nursery</h1>
+            <h1>e-plantShopping</h1>
 
             <p>
               Bring Nature Home 🌱
@@ -35,7 +35,7 @@ function App() {
       {page !== "home" && (
         <>
           <nav className="navbar">
-            <h2>🌿 Paradise Nursery</h2>
+            <h2>🌿 e-plantShopping</h2>
 
             <div className="nav-links">
               <button onClick={() => setPage("products")}>
